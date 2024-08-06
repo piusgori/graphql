@@ -38,6 +38,9 @@ importers:
       socket.io:
         specifier: ^2.1.1
         version: 2.5.1
+      validator:
+        specifier: ^13.12.0
+        version: 13.12.0
     devDependencies:
       nodemon:
         specifier: ^1.18.4
@@ -1317,6 +1320,10 @@ packages:
 
   validator@10.11.0:
     resolution: {integrity: sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==}
+    engines: {node: '>= 0.10'}
+
+  validator@13.12.0:
+    resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
     engines: {node: '>= 0.10'}
 
   vary@1.1.2:
@@ -2793,6 +2800,8 @@ snapshots:
   utils-merge@1.0.1: {}
 
   validator@10.11.0: {}
+
+  validator@13.12.0: {}
 
   vary@1.1.2: {}
 
